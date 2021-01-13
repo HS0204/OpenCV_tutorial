@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-#img = cv2.imread('lena.jpg', 1)
+#img = cv2.imread('./img/lena.jpg', 1)
 img = np.zeros([512, 512, 3], np.uint8) # 넘파이로 블랙 이미지 생성
 
 img = cv2.line(img, (0,0), (255,255), (147,96,44), 10) # 44, 96, 147

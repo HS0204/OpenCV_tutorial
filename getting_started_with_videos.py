@@ -2,7 +2,7 @@ import cv2
 
 cap = cv2.VideoCapture(0); # 0을 사용하면 디폴트 카메라(웹캠)
 fourcc = cv2.VideoWriter_fourcc(*'XVID') # 비디오 코덱
-out = cv2.VideoWriter('output.avi', fourcc, 20.0, (640,480)) # output이란 이름의 640x480 비디오를 fourcc에 저장된 코덱으로 20초 동안 녹화
+out = cv2.VideoWriter('./img/output.avi', fourcc, 20.0, (640,480)) # output이란 이름의 640x480 비디오를 fourcc에 저장된 코덱으로 20초 동안 녹화
 
 print(cap.isOpened())
 

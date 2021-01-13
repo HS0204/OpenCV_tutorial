@@ -1,8 +1,8 @@
 import numpy as np
 import cv2
 
-img = cv2.imread('messi5.jpg')
-img2 = cv2.imread('opencv-logo.png')
+img = cv2.imread('./img/messi5.jpg')
+img2 = cv2.imread('./img/opencv-logo.png')
 
 print(img.shape) # 튜플의 행, 열 수와 채널
 print(img.size) # 픽셀 크기
